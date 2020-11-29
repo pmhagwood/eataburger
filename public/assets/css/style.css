@@ -1,0 +1,58 @@
+li {
+  padding: 5px;
+  margin: 5px;
+  background: #faebd7;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+  background: aqua;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+header {
+  text-align: center;
+}
+
+body {
+  background-color: #efcf97;
+}
+.alignblock {
+  display: block;
+  margin-left: 25%;
+}
+/* alignment blocks */
+
+section h2 {
+  text-align: center;
+}
+
+.leftblock {
+  float: left;
+}
+.rightblock {
+  float: left;
+  margin-left: 10%;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.bottomblock {
+  text-align: center;
+}
+
+#ca {
+  height:60px;
+  width: 300px;
+}
