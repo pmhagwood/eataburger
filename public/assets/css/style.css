@@ -1,7 +1,40 @@
+ul {
+  list-style-type: none;
+}
+
 li {
-  padding: 5px;
+  padding: 10px 30px;
   margin: 5px;
   background: #faebd7;
+}
+
+#addburger {
+  background-color: #36828f;
+  color: #faebd7;
+  padding:10px 20px;
+  border: 1px solid #18464f;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+#addburger:hover {
+  background-color: #09363e;
+}
+
+.devour-burger {
+  background-color: #791623;
+  border: 2px solid #210005;
+  color: #faebd7;
+  display: inline-block;
+  text-align: right;
+  padding: 5px 10px;
+  margin-left: 20px;
+  cursor: pointer;
 }
 
 .label {
@@ -52,7 +85,7 @@ section h2 {
   text-align: center;
 }
 
-#ca {
+#add {
   height:60px;
   width: 300px;
 }
