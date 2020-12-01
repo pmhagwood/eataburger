@@ -30,15 +30,25 @@ $(function() {
     };
 
     // Send the POST request.
-    $.ajax("/api/burgers", {
-      type: "POST",
-      data: newBurger
-    }).then(
-      function() {
-        console.log("created new burger");
-        // Reload the page to get the updated list
-        location.reload();
-      }
-    );
+    console.log("new burger is ", newBurger.name);
+    console.log("new burger length ", newBurger.name.length);
+    if (newBurger.name.length > 0){
+        $.ajax("/api/burgers", {
+          type: "POST",
+          data: newBurger
+        }).then(
+          function() {
+            console.log("created new burger");
+            // Reload the page to get the updated list
+            location.reload();
+          }
+        );
+    } else {
+      $(".bottomblock").append('<p class="alert">Please use a valid burger name</p>')
+      setTimeout(function () {
+        $(".alert").text(' ')
+      }, 3000);
+    }
   });
+
 });
