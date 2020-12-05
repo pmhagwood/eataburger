@@ -9,12 +9,6 @@ This application creates a burger logger with MySQL, Node, Express, Handlebars a
 - Run the server.js file from terminal to run the code.
 - Or simply go to my link below to fill your belly 
 
-## Application Link
-
-View the application and get a full belly:
-
-[application](https://paulseatburgers.herokuapp.com/)
-
 ## GitHub Code 
 
 The code is set up with MVC but here is the basic structure:
@@ -25,3 +19,12 @@ The code is set up with MVC but here is the basic structure:
 - public/views is what the user or the view
 - don't forget to run npm install
 - Happy burger eating!
+
+## Application Link
+
+View the application and get a full belly:
+
+[application](https://paulseatburgers.herokuapp.com/)
+
+<img src="eat-a-burger.jpg"  alt="screencapture of eat a burger application">
+
